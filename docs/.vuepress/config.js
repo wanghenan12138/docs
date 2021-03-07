@@ -21,17 +21,12 @@ module.exports = {
     smoothScroll: true,
     nav: [
       {
-        text: '面试之道',
-        items: [
-          {
-            text: 'Javascript',
-            link: '/interview/'
-          },
-          {
-            text: '算法',
-            link: '/algorithm/'
-          }
-        ]
+        text: 'Javascript',
+        link: '/interview/'
+      },
+      {
+        text: '算法',
+        link: '/algorithm/'
       },
       {
         text: 'Webpack',
@@ -58,9 +53,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@images': '../images',
-        '@vuepress': '../images/vuepress',
-        '@components': '../.vuepress/components'
+        '@images': '../images'
       }
     }
   }

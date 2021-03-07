@@ -1,7 +1,10 @@
 ---
 sidebar: auto
 ---
-# Git常见命令
+
+# Git基本使用方法
+
+:memo: 廖雪峰的Git教程，[去学习](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 ## 配置name和email
 #### 设置name和email
