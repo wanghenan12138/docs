@@ -1,8 +1,5 @@
-const nav = require('./utils/nav.js');
-const { webpackSidebar } = nav;
-
 module.exports = {
-  title: '王贺楠',
+  title: 'Weblog',
   description: '王贺楠的个人博客',
   base: '/weblog/',
   head: [
@@ -12,7 +9,9 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
+    overrideTheme: 'dark',
     sidebar: 'auto',
     repo: 'https://github.com/wanghenan12138',
     repoLabel: 'Github',
@@ -22,6 +21,10 @@ module.exports = {
       {
         text: 'Javascript',
         link: '/interview/'
+      },
+      {
+        text: '项目集',
+        link: '/projects/'
       },
       {
         text: '算法',
@@ -41,7 +44,29 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/webpack/': [webpackSidebar],
+      '/webpack/': [{
+        title: 'Webpack',
+        collapsable: false,
+        children: [
+          '/webpack/',
+          '/webpack/install.md',
+          '/webpack/start.md',
+          '/webpack/static.md',
+          '/webpack/core.md',
+          '/webpack/advanced.md',
+          '/webpack/case.md',
+          '/webpack/optimization.md',
+          '/webpack/loader.md',
+          '/webpack/plugin.md'
+        ]
+      }],
+      '/interview/': [{
+        title: 'Interview',
+        collapsable: false,
+        children: [
+          '/interview/'
+        ]
+      }]
     }
   },
   plugins: [
