@@ -1,5 +1,5 @@
 const nav = require('./utils/nav.js');
-const { webpackSidebar, vueAnalysisSidebar, vueNextAnalysisSidebar } = nav;
+const { webpackSidebar } = nav;
 
 module.exports = {
   title: '王贺楠',
@@ -13,7 +13,6 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    lastUpdated: '最后更新时间',
     sidebar: 'auto',
     repo: 'https://github.com/wanghenan12138',
     repoLabel: 'Github',
