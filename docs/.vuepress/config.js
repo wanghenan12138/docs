@@ -19,7 +19,7 @@ module.exports = {
     smoothScroll: true,
     nav: [
       {
-        text: 'Javascript',
+        text: '高频知识点',
         link: '/interview/'
       },
       {
