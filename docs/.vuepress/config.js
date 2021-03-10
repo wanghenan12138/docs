@@ -15,7 +15,7 @@ module.exports = {
     sidebar: 'auto',
     repo: 'https://github.com/wanghenan12138',
     repoLabel: 'Github',
-    lastUpdated: '最后更新时间',
+    lastUpdated: 'Last Updated',
     smoothScroll: true,
     nav: [
       {
