@@ -2,9 +2,7 @@
 sidebar: auto
 ---
 
-<!-- [[toc]] -->
-
-# HTML
+# HTML 面试常见问题
 
 ## DOCTYPE 的作用是什么？
 

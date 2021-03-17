@@ -4,7 +4,7 @@ lang: zh-CN
 heroText: null
 heroImage: /logo.jpg
 actionText: 开始探索 →
-actionLink: /interview/
+actionLink: /html/
 features:
 - title: 热爱
   details: 热爱
