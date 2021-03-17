@@ -19,8 +19,12 @@ module.exports = {
     smoothScroll: true,
     nav: [
       {
-        text: '高频知识点',
-        link: '/interview/'
+        text: '面试',
+        items: [
+          { text: 'HTML', link: '/html/' },
+          { text: 'CSS', link: '/css/' },
+          { text: 'JavaScript', link: '/javascript/' }
+        ]
       },
       {
         text: '项目集',
@@ -58,13 +62,6 @@ module.exports = {
           '/webpack/optimization.md',
           '/webpack/loader.md',
           '/webpack/plugin.md'
-        ]
-      }],
-      '/interview/': [{
-        title: 'Interview',
-        collapsable: false,
-        children: [
-          '/interview/'
         ]
       }]
     }
