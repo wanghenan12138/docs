@@ -49,6 +49,13 @@ module.exports = {
       }
     ],
     sidebar: {
+      '/bigFE/': [{
+        title: '大前端',
+        collapsable: false,
+        children: [
+          '/bigFE/'
+        ]
+      }],
       '/webpack/': [{
         title: 'Webpack',
         collapsable: false,
@@ -162,7 +169,8 @@ module.exports = {
             'expand/plugin'
           ]
         }
-      ]
+      ],
+
     }
   },
   plugins: [
